@@ -1,0 +1,47 @@
+1.https:// github.com/AresSancho/ejercicioweb
+
+2.Practica aplicacion web con JEE
+3 Crear una aplicacion de gestion web para una empresa negocio o similar.
+La aplicacion estara basada en 3 tablas,
+----Administradores
++login(primary)
++Pass
+----Clientes
++nombre
++calle
++numeracion
++CP
++telefono
++email
++particular o empresa
+-----Ropa
++
++
++
++
++
++
++
++
+
+Los usuarios que quieran acceder a la gestion de las informaciones de las tablas 
+(a excepcion de la de administradores) deberan identificarse previamente, insertando su login y pass
+de admin. Una vez identificados podran listar editar borrar y crear, informaciones de las tablas indicadas.
+Usando Formularioss web y listados como se ha enseñado en clase.
+
+Todos los campos de los formularios deben ser validados en servidor, cumpliendo un tamaño minimo y maximo
+y un formato acorde a elegir por el programador.
+
+Todas las partes de la app deben estar protegidas de forma que si un usuario no se ha identificado como admin
+correctamente no pueda acceder a ninguna de ella.
+
+COMPROBAR SESION EN TODOS LOS SITIOS!!!!!
+
+(Opcionales)
+1-Agregar validaciones por JavaScript
+2- Sustituir hasta 3 campos de entrada en los formularios por campos no enseñados en clase. EJ: checkbox desplegable (SELECT)
+3-mejoras visuales, usando css html 5 javaScript y/o librerias, motores generadores de codigo. 
+BOOTSTRAP jquery ui y jquery mobile.
+4- incorporar una subida de archivo en el formulario de registro del dato elegido.
+
+
